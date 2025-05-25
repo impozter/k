@@ -10,15 +10,15 @@ var lagu = [
     ['With You', 'Linkin Park', '6.7M', '8M',],
     ['Enter Sandman', 'Metallica', '9.5M', '10M'],
     ['About You', 'The 1975', '12.4M', '13M'],
+    ['I Dont Love You', 'MCR', '10M', '11.3M'],
+    ['Someone, Somewhere', 'Asking Alexandria', '9M', '10,7M'],
+    ['Watch The World Burn', 'Falling In Reverse', '7,2M', '9,1M'],
+    ['All The Small Things', 'blink-128', '9M', '10.5M']
 
-    
 ];
 
 const container = document.getElementById('container');
-var currentAudio = null;
-var currentSongIndex = -1;
-var progressInterval = null; 
-var isDragging = false; 
+
 
 
 function buatTemplateLagu(judul, penyanyi, likes, played) {
