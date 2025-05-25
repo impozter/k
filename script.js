@@ -49,3 +49,5 @@ for (let i = 0; i < lagu.length; i++) {
     const templateLagu = buatTemplateLagu(judul_lagu, penyanyi, likes_lagu, played_lagu);
     container.appendChild(templateLagu);
 }
+
+
